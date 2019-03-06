@@ -1,6 +1,7 @@
 import random
 mistakes = 8
-ranwordGenerator = random.choice[("apple", "orange", "football", "hockey", "radio", "microwave", "stove", "base", "run", "jump")]
+
+ranwordGenerator = random.choice[("apple","base", "football", "jump", "orange", "hockey", "microwave", "stove", "radio", "run")]
 lettersGuessed = []
 availableLetters = list("abcdefghijclmnopqrstuvwxyz")
 def displayWord(secretWord, lettersGuessed):
